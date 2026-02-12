@@ -15,7 +15,7 @@ services:
       - RUST_LOG=info
       - ENVIRONMENT=production
       - CORS_DEV_MODE=false
-      - CORS_ALLOWED_ORIGINS=https://app.jmlcas.es
+      - CORS_ALLOWED_ORIGINS=https://tudominio.com
       - CLAMAV_ENABLED=true
       - CLAMAV_HOST=clovalink-clamav
       - CLAMAV_PORT=3310
@@ -62,3 +62,4 @@ services:
     restart: unless-stopped
     volumes:
       - /clovalink/clamav:/var/lib/clamav
+

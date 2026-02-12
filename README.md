@@ -6,7 +6,7 @@ Puedes cambiar el secreto JWT con este comando: openssl rand -base64 32
 
 Ver en "https:tudominio.com" ó http://IP:8080
 
-![Alt text](https://github.com/jmlcas/Nombre_app/blob/main/Screenshot_1.png)
+![Alt text](https://github.com/jmlcas/clovalink/blob/main/Screenshot_1.png)
 
 
 
